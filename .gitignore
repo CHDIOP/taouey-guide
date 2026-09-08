@@ -1,0 +1,22 @@
+# Logs de jobs SLURM
+logs/
+*.out
+*.err
+
+# Environnements Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Identifiants / secrets - NE JAMAIS COMMIT
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.env
