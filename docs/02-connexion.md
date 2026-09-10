@@ -11,7 +11,7 @@ L'accès à Taouey suit un circuit en 5 étapes, encadré par le Conseil Scienti
 | 1 | **Dépôt du dossier** | Soumission en ligne sur le portail CINERI : description du projet, besoins en ressources (CPU/GPU), calendrier |
 | 2 | **Évaluation** | Analyse par le Conseil Scientifique : faisabilité technique, pertinence scientifique, adéquation aux ressources disponibles |
 | 3 | **Notification** | Réponse sous **3 semaines**. Attribution d'un **quota d'heures CPU/GPU** et d'un espace de stockage |
-| 4 | **Accès & exécution** | Connexion SSH sécurisée, soumission de jobs via **SLURM/PBS**, monitoring temps réel des ressources utilisées |
+| 4 | **Accès & exécution** | Connexion SSH sécurisée, soumission de jobs via **SLURM**, monitoring temps réel des ressources utilisées |
 | 5 | **Rapport & renouvellement** | Rapport de résultats à fournir. Le renouvellement du quota est soumis à l'évaluation des livrables produits |
 
 > 💡 Préparez à l'avance une estimation réaliste de vos besoins (heures CPU/GPU, volume de stockage) : c'est un critère d'évaluation de votre dossier à l'étape 2.
@@ -65,6 +65,6 @@ sinfo
 squeue -u $USER
 ```
 
-> ℹ️ **SLURM ou PBS ?** L'équipe HPC mentionne les deux ordonnanceurs (SLURM/PBS) comme systèmes de soumission de jobs sur Taouey. Ce guide documente principalement **SLURM** (le plus répandu), mais vérifiez auprès de votre référent CINERI lequel est actif sur votre allocation — les commandes PBS (`qsub`, `qstat`, `qdel`) diffèrent de celles de SLURM.
+> ℹ️ **SLURM ou PBS ?** L'équipe HPC mentionne les deux ordonnanceurs (SLURS) comme systèmes de soumission de jobs sur Taouey. Ce guide documente principalement **SLURM** (le plus répandu), mais vérifiez auprès de votre référent CINERI lequel est actif sur votre allocation — les commandes PBS (`qsub`, `qstat`, `qdel`) diffèrent de celles de SLURM.
 
 ➡️ Passez au chapitre suivant : [Gérer son environnement avec les modules](03-environnement-modules.md)
