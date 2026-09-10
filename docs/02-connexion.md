@@ -65,6 +65,4 @@ sinfo
 squeue -u $USER
 ```
 
-> ℹ️ **SLURM ou PBS ?** L'équipe HPC mentionne les deux ordonnanceurs (SLURS) comme systèmes de soumission de jobs sur Taouey. Ce guide documente principalement **SLURM** (le plus répandu), mais vérifiez auprès de votre référent CINERI lequel est actif sur votre allocation — les commandes PBS (`qsub`, `qstat`, `qdel`) diffèrent de celles de SLURM.
-
 ➡️ Passez au chapitre suivant : [Gérer son environnement avec les modules](03-environnement-modules.md)
