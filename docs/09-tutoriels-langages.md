@@ -581,9 +581,5 @@ sinfo
 
 ---
 
-## Contact et vérification
-
-Pour confirmer la version exacte d'un module (`module avail <nom>`) ou signaler un écart entre un exemple de cette page et le comportement réel sur Taouey : [support@cineri.sn](mailto:support@cineri.sn) ou consultez directement [github.com/Taouey/Docs](https://github.com/Taouey/Docs).
-
 ➡️ Retour au [sommaire](../README.md)
 
